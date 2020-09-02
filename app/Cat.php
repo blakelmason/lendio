@@ -6,5 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cat extends Model
 {
+    protected $table = 'cats';
     protected $fillable = ['image', 'description'];
 }
